@@ -46,7 +46,7 @@ function setzh() {
   dbv1.innerHTML = "1 (vogais duplicadas, padrão)"
   nctxt.innerHTML = "Substitua os dígitos 1 a 9 por dígitos circulados (por exemplo, ①②③)"
   clear.innerHTML = "Remover itens";
-  whattxt.innerHTML = "Este recurso ainda não está implementado. Por favor, tente novamente em uma versão posterior."
+  whattxt.innerHTML = "A pseudolocalização é um método de teste de software usado para testar aspectos de internacionalização de software. Em vez de traduzir o texto do software para um idioma estrangeiro, como no processo de localização, os elementos textuais de uma aplicação são substituídos por uma versão alterada do idioma original. <br> Além das ferramentas utilizadas internamente pela Microsoft, outras ferramentas de internacionalização agora incluem opções de pseudolocalização. Essas ferramentas incluem Alchemy Catalyst da Alchemy Software Development, SDL Passolo da SDL e Globalyst da g11n. Essas ferramentas incluem capacidade de pseudo-localização, incluindo a capacidade de visualizar caixas de diálogo pseudo-localizadas renderizadas e automatizar o próprio processo de teste. Embora ferramentas como o Globalyst concluam todo o processo de criação de construção pseudolocalizada e automatizem o teste, isso também pode ser feito executando um script de pseudolocalização personalizado nos recursos de texto extraídos e testando-o manualmente. <br> Há uma variedade de recursos gratuitos de pseudolocalização na Internet que criarão versões pseudolocalizadas de formatos de localização comuns, como strings iOS, Android xml, Gettext po e outros. Esses sites permitem que os desenvolvedores carreguem arquivos de strings em um site e baixem o arquivo pseudolocalizado resultante."
 }
 function seten() {
   zh.style.color = "#000";
@@ -82,6 +82,6 @@ function seten() {
   dbv1.innerHTML = "1 (Doubled vowels)"
   nctxt.innerHTML = "Replace digits 1-9 with circled digits ①-⑨"
   clear.innerHTML = "Clear"
-  whattxt.innerHTML = "Coming soon!"
+  whattxt.innerHTML = "Pseudolocalization (or pseudo-localization) is a software testing method used for testing internationalization aspects of software. Instead of translating the text of the software into a foreign language, as in the process of localization, the textual elements of an application are replaced with an altered version of the original language. <br> Besides the tools used internally by Microsoft, other internationalization tools now include pseudolocalization options. These tools include Alchemy Catalyst from Alchemy Software Development, SDL Passolo from SDL and Globalyst from g11n. Such tools include pseudo-localization capability, including ability to view rendered Pseudo-localized dialogs and automating the testing process itself. While tools like Globalyst complete the whole process of creating pseudolocalised build and automate the testing, it can also be done by running a custom made pseudolocalization script on the extracted text resources and manually testing it. <br> There are a variety of free pseudolocalization resources on the Internet that will create pseudolocalized versions of common localization formats like iOS strings, Android xml, Gettext po, and others. These sites allow developers to upload strings file to a Web site and download the resulting pseudolocalized file."
   logtxt.innerHTML = "";
 }
