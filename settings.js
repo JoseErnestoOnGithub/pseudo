@@ -1,5 +1,5 @@
 var lang = 0;
-var ver = "v1.0.0_b1"
+var ver = "v1.0.0_b2"
 //默认语言设置
 check()
 function check(){
@@ -56,8 +56,8 @@ function seten() {
   en.style.background = "#0c6c3c";
   en.innerHTML = "English (United States)"
   resph="Result will be displayed here"
-  title.innerHTML = "Pseudolocalization Tool - Version 1.0.0 Beta 1"
-  title1.innerHTML = "Pseudolocalization Tool version 1.0.0 Beta 1"
+  title.innerHTML = "Pseudolocalization Tool - Version 1.0.0 Beta 2"
+  title1.innerHTML = "Pseudolocalization Tool version 1.0.0 Beta 2"
   bkhome.style.display = "none";
   what.innerHTML = "What is pseudolocalization?"
   uplog.innerHTML = "Update log"
